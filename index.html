@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devi Ai ChaT web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- ہیڈر سیکشن -->
+        <header class="header">
+            <div class="header-content">
+                <i class="fas fa-robot"></i>
+                <h1>Devi Chat Ai Web</h1>
+            </div>
+            <button class="clear-btn" onclick="clearChat()">
+                <i class="fas fa-trash"></i>
+                صاف کریں
+            </button>
+        </header>
+
+        <!-- چیٹ میسجز سیکشن -->
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message ai-message">
+                    <div class="message-content">
+                        <div class="message-header">
+                            <i class="fas fa-robot"></i>
+                            <span>AI معاون</span>
+                        </div>
+                        <p>ہیلو! 👋 میں آپ کی کیسے مدد کر سکتا ہوں؟</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ان پٹ سیکشن -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="اپنا پیغام یہاں لکھیں..."
+                    onkeypress="handleKeyPress(event)"
+                >
+                <button class="send-btn" onclick="sendMessage()" id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="typing-indicator" id="typing-indicator">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>AI ٹائپ کر رہا ہے...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- موبائل کی بورڈ کے لیے اضافی اسپیس -->
+    <div class="mobile-spacer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devi Chat Ai Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- ہیڈر سیکشن -->
+        <header class="header">
+            <div class="header-content">
+                <i class="fas fa-robot"></i>
+                <h1>Devi Chat Ai Website</h1>
+            </div>
+            <button class="clear-btn" onclick="clearChat()">
+                <i class="fas fa-trash"></i>
+                صاف کریں
+            </button>
+        </header>
+
+        <!-- چیٹ میسجز سیکشن -->
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message ai-message">
+                    <div class="message-content">
+                        <div class="message-header">
+                            <i class="fas fa-robot"></i>
+                            <span>AI معاون</span>
+                        </div>
+                        <p>ہیلو! 👋 میں آپ کی کیسے مدد کر سکتا ہوں؟</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ان پٹ سیکشن -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="اپنا پیغام یہاں لکھیں..."
+                    onkeypress="handleKeyPress(event)"
+                >
+                <button class="send-btn" onclick="sendMessage()" id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="typing-indicator" id="typing-indicator">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>AI ٹائپ کر رہا ہے...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- موبائل کی بورڈ کے لیے اضافی اسپیس -->
+    <div class="mobile-spacer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
